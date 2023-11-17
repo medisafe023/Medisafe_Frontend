@@ -11,7 +11,7 @@ function Signup({peraWallet,accountAddress}) {
   const toggleUserType = () => {
     setIsDoctor((prevIsDoctor) => !prevIsDoctor);
   };
-
+  
   function peraWalletSigner(peraWallet){
     return async (txnGroup, indexesToSign) => {
       return await peraWallet.signTransaction([
