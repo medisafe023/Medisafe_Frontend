@@ -69,7 +69,7 @@ console.log(atc);
 
 atc.execute(algodclient,4)
   .then(async result => {
-    const response = await fetch("http://localhost:5000/login", {
+    const response = await fetch("https://medisafe.pythonanywhere.com/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
