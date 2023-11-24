@@ -210,3 +210,28 @@ margin-top: 20px;
   transform: translateZ(20px);
 }
 }
+
+@media screen and (max-width: 480px) {
+  .animated-section{
+    height: 50vh;
+    pointer-events: all;
+    background-size: 200%;
+    background-position: 50% -5%
+  }
+  .content2{
+    scale: 0.5;
+  }
+  .section{
+    pointer-events: all;
+  }
+  .section-left{
+    flex: auto;
+  }
+  .social-icon{
+    left: 15%;
+  }
+  .down p{
+    left: 30%;
+  }
+  
+}

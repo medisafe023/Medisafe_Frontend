@@ -78,6 +78,7 @@ const PatientNavbarProfile = ({accountAddress,restapi,loggedIn,handleDisconnectW
           <Link className='button' to="/patient_reports">Reports</Link>
           <Link className='button' to="/patient_add">Add Data</Link> 
           <Link className='button' to="/patient_qr">QR Scan</Link>
+          <a className='button' href="https://0fea70bb93826fd071.gradio.live">Chat Bot</a>
         </div>
         <div className='dropdown-box'>
         <hr />

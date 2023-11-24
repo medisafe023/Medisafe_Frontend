@@ -214,7 +214,7 @@ function App({loggedIn,isDoctor,isPatient,isConnectedToPeraWallet,handleConnectW
 
       <nav className="navbar">
         <div className="navbar-left">
-          <img src="MEDISAFE.jpg" alt="Logo" className="logo" />
+          <img src="logo.png" alt="Logo" className="logo" />
           <span className="navbar-text">Medisafe</span>
         </div>
         <div className="navbar-right">
