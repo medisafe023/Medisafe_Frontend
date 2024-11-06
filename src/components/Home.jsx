@@ -381,6 +381,31 @@ function App({loggedIn,isDoctor,isPatient,isConnectedToPeraWallet,handleConnectW
         <i class="social-icon fa-regular fa-envelope fa-2x"></i>
         <p>© Copyright Medisafe</p>
       </div>
+      <div class="team">
+        <h2>Team Members</h2>
+        <div class="team-members">
+          <div class="member">
+            <strong>Y. Satish</strong><br/>
+            <span>Blockchain Architect and Developer</span><br/>
+            <span>MIC College of Technology</span>
+          </div>
+          <div class="member">
+            <strong>V. Narendra</strong><br/>
+            <span>Security Architect and R&D</span><br/>
+            <span>MIC College of Technology</span>
+          </div>
+          <div class="member">
+            <strong>M. Sujan</strong><br/>
+            <span>Technical and R&D</span><br/>
+            <span>IIITDM Kancheepuram</span>
+          </div>
+          <div class="member">
+            <strong>V. Varshith</strong><br/>
+            <span>Security Analyst</span><br/>
+            <span>VIT Vellore</span>
+          </div>
+        </div>
+      </div>
     </footer>
     </section>
     </div>

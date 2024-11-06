@@ -135,15 +135,16 @@ p {
   padding: 2% 15%;
   color: #fff;
   height: 150px;
+  justify-content: center;
 }
 .social-icon {
   margin: 20px 10px;
   position: relative;
-  left: 37%;
+  left: 40%;
 }
 .down p{
   position: absolute;
-  left: 43%;
+  left: 45%;
 }
 
 
@@ -200,6 +201,27 @@ font-size: 1.2rem;
 color: #fff;
 text-align: center;
 margin-top: 20px;
+}
+
+#footer .team {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  z-index: 10;
+  position: relative;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.member {
+  text-align: center;
+  width: 200px;
+  padding: 10px;
 }
 
 @keyframes textAnimation {
