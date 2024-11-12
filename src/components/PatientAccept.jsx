@@ -30,7 +30,7 @@ const PatientAccept = ({handleDisconnectWalletClick,restapi,peraWallet,accountAd
   }
 
   async function ski(obj) {
-    const baseServer = 'https://testnet-algorand.api.purestake.io/ps2'
+    const baseServer = 'https://testnet-api.algonode.cloud'
     const port = '';
     const token = {
         'X-API-Key': 'LFIoc7BZFY4CAAHfCC2at53vp5ZabBio5gAQ0ntL'
