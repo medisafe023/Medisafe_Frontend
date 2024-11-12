@@ -8,7 +8,6 @@ async function ski() {
 const baseServer = 'https://testnet-api.algonode.cloud'
 const port = '';
 const token = {
-    'X-API-Key': 'LFIoc7BZFY4CAAHfCC2at53vp5ZabBio5gAQ0ntL'
 }
 const algodclient = new algosdk.Algodv2(token, baseServer, port);
 const suggestedParams = await algodclient.getTransactionParams().do();
