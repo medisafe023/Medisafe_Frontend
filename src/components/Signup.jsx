@@ -70,6 +70,7 @@ atc.execute(algodclient,4)
   .then(async result => {
     const response = await fetch("https://medisafe.pythonanywhere.com/", {
         method: "POST",
+        mode: "cors",
         headers: {
           "Content-Type": "application/json",
         },
